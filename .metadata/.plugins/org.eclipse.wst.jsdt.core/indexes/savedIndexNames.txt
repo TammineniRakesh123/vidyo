@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\D drive data\vidyo\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+267661169.index
+669941152.index
+2711151194.index
+3837363364.index
+2523064496.index
+1618587253.index

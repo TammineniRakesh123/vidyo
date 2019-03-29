@@ -1,0 +1,5 @@
+INDEX VERSION 1.130
+D:\vidyo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4177888012.index
+\Vidyo_Poc\src
+D:\D drive data\vidyo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4177888012.index
+\Vidyo_Poc\src

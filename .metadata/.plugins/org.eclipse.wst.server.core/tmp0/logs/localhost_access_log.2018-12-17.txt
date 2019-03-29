@@ -1,0 +1,4 @@
+10.1.16.31 - - [17/Dec/2018:12:13:58 +0530] "GET /Vidyo_Poc/Connector?date=2018-12-23&time=00:15&Discription=wsads&Roomname=rake&Token=cHJvdmlzaW9uAHJha0AyNmZiMmEudmlkeW8uaW8ANjM3MTIwOTI3NTUAADk2NzUwY2MyYWM5ZmIyNGViOTZkNjBhZmJlMTVlMzU5MDkxMmNlOTYyOGU2NGIzMTgxMWY3OWNkYThhMDEwZDE0NGY0NGVlNmI2YzgwNjc3N2JjZTI5ZjhhZWI1NTgwNw==&Name=rak HTTP/1.1" 302 -
+10.1.16.31 - - [17/Dec/2018:12:14:06 +0530] "GET /Vidyo_Poc/VideoConference.jsp HTTP/1.1" 200 954
+10.1.16.31 - - [17/Dec/2018:12:14:07 +0530] "GET /Vidyo_Poc/x1.js HTTP/1.1" 304 -
+10.1.16.31 - - [17/Dec/2018:12:14:08 +0530] "GET /favicon.ico HTTP/1.1" 404 1016

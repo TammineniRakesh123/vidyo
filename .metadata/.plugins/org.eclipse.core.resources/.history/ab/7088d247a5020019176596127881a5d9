@@ -1,0 +1,46 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="com.beans.ShareParameters"%>
+<%@page import="com.user.Login"%>
+<%@page import="com.user.Meeting_Creation"%>
+<%@page import="com.user.Connector"%>
+<%@page import="com.user.TokenGenerator"%>
+
+<html>
+<head>
+  <title>Vidyo Sample</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<%
+
+ String token;
+ String name;
+ String resourceId;
+if(Connector.Name==null)
+{
+	token=ShareParameters.localtoken;
+	name=Login.participant;
+	resourceId=Meeting_Creation.Roomname;
+}
+else
+{
+	token=Connector.tokenid;
+	name=Connector.Name;
+	resourceId=Connector.RoomName;
+}
+out.print(Connector.count);
+%>
+<script>
+var value = "<%=token%>";
+var name = "<%=name%>";
+var resourceId = "<%=resourceId%>";
+</script>
+
+ <script type="application/javascript" src="VideoPlay.js"></script>
+  <script src="https://static.vidyo.io/latest/javascript/VidyoClient/VidyoClient.js?onload=onVidyoClientLoaded"></script>
+  // Including the Vidyo.io package by adding the javascript path.
+ <h3>Hello Vidyo!</h3>
+ <button onclick="joinCall()">Connect</button>
+ <div id="renderer"></div>
+</body>
+</html>

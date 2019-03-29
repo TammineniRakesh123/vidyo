@@ -1,0 +1,2 @@
+10.1.16.159 - - [11/Jan/2019:17:13:08 +0530] "GET /Vidyo_Poc/VideoConference.jsp HTTP/1.1" 200 952
+10.1.16.159 - - [11/Jan/2019:17:13:08 +0530] "GET /Vidyo_Poc/VideoPlay.js HTTP/1.1" 200 1784
